@@ -10,7 +10,7 @@ In this lab session, we take a look at the applications of Deep Learning in the 
 very important domain of face images. Here are some details of the topics that are covered -
 
 1. **Basics** [[1-FaceRecognition](https://github.com/samyak-268/deep-face-tutorial/blob/master/1-FaceRecognition.ipynb)]: Introduction to the pre-trained VGG-Face [1] network.
-2. **Gender Classification** [[1-FaceRecognition](https://github.com/samyak-268/deep-face-tutorial/blob/master/2-GenderClassification.ipynb)]: Fine-tune the pre-trained VGG-Face representations for the task of gender classification on a subset of the [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset [2].
+2. **Gender Classification** [[2-GenderClassification](https://github.com/samyak-268/deep-face-tutorial/blob/master/2-GenderClassification.ipynb)]: Fine-tune the pre-trained VGG-Face representations for the task of gender classification on a subset of the [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset [2].
 3. **Metric Learning**
     1. [[3a-FaceVerification](https://github.com/samyak-268/deep-face-tutorial/blob/master/3a-FaceVerification.ipynb)] Intoduction to the problem of face verification and performance metrics used for measuring verification accuracies. We use the [CFPW](http://mukh.com/) [3] dataset for all verification/metric learning related experiments.
     2. [[3b-MetricLearning](https://github.com/samyak-268/deep-face-tutorial/blob/master/3b-MetricLearning.ipynb)] Improving the performance of VGG-Face features on the face verification task via metric learning using (dis)similarity labels.
