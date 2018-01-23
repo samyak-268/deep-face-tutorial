@@ -15,7 +15,13 @@ very important domain of face images. Here are some details of the topics that a
     1. [[3a-FaceVerification](https://github.com/samyak-268/deep-face-tutorial/blob/master/3a-FaceVerification.ipynb)] Intoduction to the problem of face verification and performance metrics used for measuring verification accuracies. We use the [CFPW](http://mukh.com/) [3] dataset for all verification/metric learning related experiments.
     2. [[3b-MetricLearning](https://github.com/samyak-268/deep-face-tutorial/blob/master/3b-MetricLearning.ipynb)] Improving the performance of VGG-Face features on the face verification task via metric learning using (dis)similarity labels.
 
-The datasets and the pre-trained models will be uploaded soon.
+### Datasets
+Images from different face datasets are used in different experiments. For Experiment-1, the dataset is a set of 10 random images (from Google image search) of celebrities which belong to the training set for VGG-Face [1]. For Experiment 2, a subset of 100 male and 100 female faces from the CelebA dataset [2] has been used and for Experiment 3, the dataset is a set of 100 similar and dissimilar face pairs each sampled from the CFPW dataset [3].
+
+[Here](https://www.dropbox.com/sh/fip0khhjjqmmtdf/AABNwgJwDIak2vOt4g40lPNca?dl=0) is a link to the folder containing the datasets.
+
+### Pre-trained models
+The PyTorch version of the VGG-Face pre-trained model that is used in all experiments can be downloaded from [here](https://www.dropbox.com/s/183mgti3tdfmu9d/VGG_FACE_pyTorch_small.t7?dl=0).
 
 ### References
 [[1](http://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf)] Parkhi et al., "Deep Face Recognition", BMVC 2015 <br>
